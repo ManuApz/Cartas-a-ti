@@ -76,7 +76,7 @@ loadNames();
  * Crea corazones flotantes animados cuando se abre la carta
  */
 function createFloatingHearts() {
-    const numHearts = 60;
+    const numHearts = 250;
     elements.floatingHearts.innerHTML = '';
     
     for (let i = 0; i < numHearts; i++) {
